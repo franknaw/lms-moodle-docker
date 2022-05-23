@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2" moduleid="4" modulename="resource" contextid="44">
+  <resource id="2">
+    <name>CDM 141 Lab Guides</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;This lab guide should be used to complete the &lt;strong&gt;three lab activities&lt;/strong&gt; during this course. These lab guides will open in a separate window. Our recommendation is to use a second screen to display the lab guide while taking the course.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <tobemigrated>0</tobemigrated>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>6</display>
+    <displayoptions>a:2:{s:10:"popupwidth";i:620;s:11:"popupheight";i:450;}</displayoptions>
+    <filterfiles>0</filterfiles>
+    <revision>6</revision>
+    <timemodified>1633286926</timemodified>
+  </resource>
+</activity>

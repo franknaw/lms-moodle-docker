@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1" moduleid="2" modulename="book" contextid="42">
+  <book id="1">
+    <name>Course Instructions</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <numbering>0</numbering>
+    <navstyle>1</navstyle>
+    <customtitles>0</customtitles>
+    <timecreated>1628504442</timecreated>
+    <timemodified>1631671411</timemodified>
+    <chapters>
+      <chapter id="1">
+        <pagenum>1</pagenum>
+        <subchapter>0</subchapter>
+        <title>Instructions for the Student Technical Check</title>
+        <content>&lt;p&gt;During the technical check, you will be testing the link to Adobe Connect (the link below) and the Cyber Range Dashboard, found in the Lab below. These resources will not be visible until they are needed. Please note the following:&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;TECH Check: the tech check is used to ensure you can access our
+        training environment and resources on the day of training.&lt;/li&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt;During the technical check, you will be testing the link to
+            Adobe Connect and the Cyber Range Dashboard, the links will be provided.&lt;/li&gt;
+        &lt;li&gt;Specific dates and times for the tech check are:&lt;/li&gt;
+        &lt;ol&gt;&lt;li&gt;&lt;strong style="font-size: 0.9375rem;"&gt;October 4th, 2021 at 2pm EST&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;If your last name
+            begins with A-M, you will attend the earlier technical check (time listed
+            here)&amp;nbsp;&lt;/li&gt;&lt;li&gt;If your last name
+            begins with N-Z, you will attend the later technical check (time listed)&lt;/li&gt;&lt;/ol&gt;
+        
+        
+        &lt;li&gt;Resources for the course are available on this page, but will
+            also be available during the tech check.&lt;/li&gt;
+        &lt;li&gt;If there are issues using the Cyber Range Dashboard, communicate
+            them during the Student Technical Check (while on the Adobe Connect meeting)&lt;/li&gt;
+        &lt;li&gt;If there are issues connecting to Adobe Connect, communicate
+            with the Help Desk (&lt;a href="mailto:cyberinsights@cisa.dhs.gov" target="_blank"&gt;cyberinsights@cisa.dhs.gov&lt;/a&gt;)&lt;/li&gt;
+        &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;When
+                you have successfully gained access to the training environment and
+                resources you have successfully completed the tech check&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;/ol&gt;
+&lt;!--[if !supportLists]--&gt;</content>
+        <contentformat>1</contentformat>
+        <hidden>0</hidden>
+        <timemodified>1632329574</timemodified>
+        <importsrc></importsrc>
+      </chapter>
+      <chapter id="2">
+        <pagenum>2</pagenum>
+        <subchapter>0</subchapter>
+        <title>Instructions for the Live Course</title>
+        <content>&lt;p dir="ltr" style="text-align: left;"&gt;The Live Course will be using connections to Adobe Connect and the Cyber Range Dashboard, found in the next section of the course. These resources will not be accessible until the day and time of the course.&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Course Content: &lt;/strong&gt;Attend the live delivery of the course on the date and time provided.&amp;nbsp;&lt;strong&gt;You must spend at least 1 hour on this course to receive credit.&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Labs:&lt;/strong&gt; Participate in each of the labs provided. Resources are available on this page, but they are also available in the Adobe Connect room.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Knowledge Checks (KC):&lt;/strong&gt; Each lab has a series of questions that will test your knowledge of the course and lab content. You must attempt each KC to receive credit. No grades will be recorded other than your attempts.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Feedback Survey:&lt;/strong&gt; Completion of the survey will give you access to the Course Completion certificate.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Course Certificate:&lt;/strong&gt; Download your certificate to use as proof of completion/attendance.&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</content>
+        <contentformat>1</contentformat>
+        <hidden>0</hidden>
+        <timemodified>1632329779</timemodified>
+        <importsrc></importsrc>
+      </chapter>
+    </chapters>
+    <chaptertags>
+    </chaptertags>
+  </book>
+</activity>

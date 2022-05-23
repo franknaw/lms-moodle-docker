@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="2">
+  <number>0</number>
+  <name>Course Instructions</name>
+  <summary>&lt;p dir="ltr" style="text-align: left;"&gt;This section provides participants with the instructions needed to successfully complete this course.&lt;br&gt;&lt;/p&gt;</summary>
+  <summaryformat>1</summaryformat>
+  <sequence>2</sequence>
+  <visible>1</visible>
+  <availabilityjson>{"op":"&amp;","c":[],"showc":[]}</availabilityjson>
+  <timemodified>1632162173</timemodified>
+</section>

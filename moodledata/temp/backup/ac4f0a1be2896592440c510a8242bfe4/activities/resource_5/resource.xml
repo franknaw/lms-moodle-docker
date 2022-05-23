@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="3" moduleid="5" modulename="resource" contextid="45">
+  <resource id="3">
+    <name>CDM141-1 Examine the Agency Overview Lab Guide</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;Please use this guide as you complete Lab 1.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <tobemigrated>0</tobemigrated>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>6</display>
+    <displayoptions>a:2:{s:10:"popupwidth";i:620;s:11:"popupheight";i:450;}</displayoptions>
+    <filterfiles>0</filterfiles>
+    <revision>4</revision>
+    <timemodified>1633286974</timemodified>
+  </resource>
+</activity>

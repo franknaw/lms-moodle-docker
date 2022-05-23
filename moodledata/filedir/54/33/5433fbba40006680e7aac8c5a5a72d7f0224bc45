@@ -1,0 +1,568 @@
+// Bootstrap variables
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-350: #f0f0f0 !default;
+
+$gray-400: #ced4da !default;
+$gray-500: #8f959e !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000b18 !default;
+
+$blue:    #0078AE !default;
+$blue-darker: #015287 !default;
+$blue-darkest: #04426c !default;
+
+$indigo:  #6610f2 !default;
+$purple:  #613d7c !default;
+$pink:    #e83e8c !default;
+$red:     #ca3120 !default;
+$orange:  #f0ad4e !default;
+$yellow:  #ff7518 !default;
+$green:   #357a32 !default;
+$teal:    #20c997 !default;
+$cyan:    #008196 !default;
+
+$primary:       $blue !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $orange !default;
+$danger:        $red !default;
+$secondary:     $gray-350 !default;
+
+$info-outline:    #1f7e9a;
+$warning-outline: #a6670e;
+
+// Options
+$enable-rounded: false !default;
+$enable-responsive-font-sizes: true !default;
+
+// Body
+$body-color:    $black !default;
+
+// Fonts
+$font-size-base: 0.9375rem !default;
+$rfs-base-font-size: 0.9rem !default;
+$headings-font-weight:   300 !default;
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+// Navbar
+$navbar-dark-hover-color:           rgba($white, 1) !default;
+$navbar-light-color:                rgba($gray-500, 1) !default;
+$navbar-light-hover-color:          rgba($black, .8) !default;
+
+// Breadcrumbs
+$breadcrumb-padding-y:              .25rem !default;
+$breadcrumb-padding-x:              0 !default;
+$breadcrumb-item-padding:           .5rem !default;
+$breadcrumb-margin-bottom:          0 !default;
+$breadcrumb-bg:                     transparent !default;
+$breadcrumb-divider: "/" !default;
+$breadcrumb-divider-rtl: "/" !default;
+
+// Floating elements positions
+$gototop-bottom-position: 50px !default;
+
+// Alerts
+$alert-border-width:                0 !default;
+
+$card-group-margin: .25rem;
+
+// Custom control size
+$custom-control-indicator-size: 1.25rem;
+
+$input-btn-focus-color: rgba($primary, .75) !default;
+
+$input-border-color: $gray-500 !default;
+
+$dropdown-link-hover-color: $white;
+$dropdown-link-hover-bg: $primary;
+
+$spacer: 1rem !default;
+$spacers: (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 2),
+    6: ($spacer * 3)
+) !default;
+
+// stylelint-disable
+$theme-colors: () !default;
+$theme-colors: map-merge((
+    primary: $primary,
+    secondary: $secondary,
+    success: $success,
+    info: $info,
+    warning: $warning,
+    danger: $danger,
+), $theme-colors);
+// stylelint-enable
+
+$spacer: 1rem !default;
+$spacers: (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 2),
+    6: ($spacer * 3)
+) !default;
+
+// Drawer variables
+$drawer-padding-x: 0px !default;
+$drawer-padding-y: 0px !default;
+$drawer-item-padding: 16px;
+$drawer-icons-width: 35px;
+$drawer-closed-width: $drawer-icons-width + $drawer-item-padding;
+
+// Import FontAwesome.
+@import "fontawesome";
+
+// Import All of Bootstrap
+@import "bootstrap";
+
+// Import Core moodle CSS
+@import "moodle";
+
+// Preset CSS
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: $gray-350;
+    // See drawer settings - this is 'closed' margin
+    margin-left: $drawer-closed-width;
+    background-image: none;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
+    padding-left: 0px;
+
+    button.btn-light {
+        background-color: $white;
+    }
+    span.site-name.d-none.d-md-inline {
+        margin-left: 0.5em;
+    }
+}
+
+// Drawer changes
+[data-region="drawer"] {
+    background-color: $blue-darker;
+    overflow-x: hidden;
+    transition: width 0.5s ease,left 0.5s ease;
+}
+
+// Closed behavior is smaller width
+#nav-drawer.closed {
+    left: 0px;
+    width: $drawer-closed-width;
+}
+
+#nav-drawer[aria-hidden=true] .list-group-item {
+    display: block;
+}
+
+#nav-drawer {
+
+    // Making scrollbar disappear
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    &::-webkit-scrollbar { /* WebKit */
+        width: 0;
+        height: 0;
+    }
+
+    .list-group[aria-label="Site settings"] {
+        border-top: solid 1px $blue-darkest;
+        margin-top:0px;
+    }
+    .list-group-item {
+        padding: 12px $drawer-item-padding;
+        background-color: $blue-darker;
+        color: $white;
+        border: none;
+        
+        // Width for new behavior
+        .media-left {
+            width: $drawer-icons-width;
+        }
+        .media-body {
+            overflow:hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+    .list-group-item:hover {
+        background-color: rgba(4, 66, 108, 0.8)
+    }
+    /* add this to hide site home button
+    .list-group-item[data-key="home"] {
+        display:none;
+    }
+    */
+    .list-group-item.active {
+        background-color: $blue-darkest;
+    }
+}
+
+// Login screen
+body.pagelayout-login {
+    #page-wrapper #page #page-content #region-main-box #region-main div.card-title h2 {
+        display:none;
+    }
+}
+
+// Dashboard
+body.pagelayout-mydashboard {
+    #page-header {
+        background: 100% 0% no-repeat; 
+        position: relative; 
+        min-height: 150px;
+        background-size: 75%; 
+        background-color: $black; 
+        color: $white;
+        margin-bottom: 1rem;
+        // This image depends on our dashboardbannerimage setting
+        background-image: url([[pix:theme_cisa|dashboardbannerimage]]);
+
+        div .card {
+            background-color: inherit;
+            border: none;
+            
+            .card-body {
+                > .d-flex.flex-wrap {
+                    content: $white;
+                    font-size: 3.2em;
+                }
+            }
+        }
+    }
+    #page-content {
+        #region-main {
+            .block_recentlyaccessedcourses {
+                .dashboard-card {
+                    .course-info-container {
+                        .text-muted {
+                            display:none !important;
+                        }
+                    }
+
+                }
+            }
+            .block_myoverview {
+                .course-listitem, .course-summaryitem, .course-info-container {
+                    .text-muted {
+                        color:$black !important;
+                    }                   
+                }
+                .summaryimage {
+                    margin-right: 1rem !important;
+                }
+            }
+        }
+    }
+}
+
+// Cyber Range Dashboard
+#page-content {
+    div.cyberdashboard {
+        .generaltable {
+            thead th {
+                border-top:none;
+                font-size:1.3em;
+                padding-bottom: .25rem;
+            }
+            tbody td {
+                font-weight:bold;
+                font-size:1.1em;
+                span.resourcename {
+                    font-size:0.9em;
+                    font-weight:400;
+                    color: $gray-800;
+                }
+                span.rowgreen {
+                    color: $green;
+                }
+                span.rowred {
+                    color: $red;
+                }
+                span.rowdisable {
+                    color: $gray-500;
+                    font-weight:400;
+                }
+                a {
+                    font-weight:bold;
+                    text-decoration:underline;
+                }
+                a.rowlink {
+                    color:red;
+                }
+                a:hover.rowlink {
+                    color:#0078AE;
+                }
+            }
+            tbody tr:nth-of-type(odd) {
+                background-color:transparent;
+            }
+        }
+    }
+    div.cybercontents {
+        font-size:small;
+        p {
+            margin-bottom: .25rem;
+        }
+    }
+}
+
+// Course catalog
+#page-course-index-category,
+#page-enrol-index,
+#page-course-search {
+    .content {
+        .coursename .aalink,
+        .categoryname a {
+            font-weight:bold;
+        }
+        .customfields-container {
+            margin-top:.4rem;
+            div.customfield {
+                margin-top:1rem;
+                .customfieldname {
+                    font-weight: bold;
+                }
+                .customfieldvalue {
+                    p {
+                        margin-bottom:.1rem;
+                    }
+                }
+            }
+            div.customfield_checkbox {
+                margin-top:.4rem;
+            }
+        }
+    }
+}
+
+// Footer
+#page-footer {
+    .container {
+        display:flex;
+        flex-direction:row;
+        margin-left:inherit;
+        margin-right:inherit;
+        padding-left: 2rem;
+        padding-right: 3rem;
+
+        .brandingblock {
+            background: 0% 0% no-repeat; 
+            background-image: url([[pix:theme_cisa|footericonimage]]);
+            background-size:contain;
+            width: 20rem;
+            flex-grow:2;
+            
+            .textblock {
+                width: 12rem;
+                font-size: 1.1rem;
+                font-variant-caps: all-small-caps;
+                font-weight: 600;
+                margin-left: 6rem;
+                border-left: solid $gray-500 1px;
+                padding-left: 1rem;
+            }
+        }
+        
+        .helpdiv {
+            .helptext {
+                font-size:1rem;
+                font-weight:600;
+            }
+            .helplink {
+                text-decoration:none;
+            }
+        }
+        .tool_dataprivacy, .purgecaches {
+            display:none;
+        }
+    }
+}
+
+// Calendar page
+
+#page-calendar-view {
+    #page-navbar {
+        ol.breadcrumb {
+            li.breadcrumb-item:nth-child(2) { // hide the 'My Sites' breadcrumb item
+                display:none;
+            }
+        }
+    }
+}
+
+// All site generic customizations
+// card titles
+.card-title {
+    font-variant-caps: all-small-caps;
+    font-weight: 600;
+}
+
+// All navbars
+#page-navbar {
+    li.breadcrumb-item {
+        a {
+            font-weight: bold;
+        }
+    }
+}
+
+// course name links
+.block .block-cards a.aalink.coursename, a.resources {
+    color: $blue;
+    font-weight:600;
+}
+
+// Customization for 'singlebutton'
+
+div.singlebutton {
+    .btn.btn-secondary {
+        color: $blue;
+        background-color: $gray-350;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-weight:bold;
+    }
+}
+
+.bg-dark { 
+    background-color: $gray-900 !important;
+}
+
+// Rounded user pictures
+.userpicture {
+    border-radius: 50%;
+}
+
+// Reset the default styling back to the bootstrap defaults for
+// the secondary outline button because gray-200 is much too light
+// for an outline button.
+.btn-outline-secondary {
+    @include button-outline-variant($gray-600);
+    border-color: $gray-600;
+}
+
+.btn-outline-info {
+    @include button-outline-variant($info-outline);
+}
+
+.btn-outline-warning {
+    @include button-outline-variant($warning-outline);
+}
+
+
+@include bg-variant(".bg-gray", $gray-200, true);
+
+// Course specific visual template
+.pagelayout-course, .pagelayout-incourse {
+    #page-header {
+        .page-context.header {
+            padding-left:0px;
+        }
+    }
+    #page-navbar {
+        margin-left:.5rem;
+    }
+    div.web_banner {
+        background-color: #1B6494;
+        width:100%;
+        margin:0px;
+        padding:0px;
+        color:white;
+        float:left;
+    }
+    div.web_banner div {
+        float:left;
+        width:45%;
+        margin: 2em 0 0 2em;
+    }
+    div.web_banner .title {
+        font-size:4em;
+    }
+    div.web_banner .subtitle {
+        font-size:3em;
+    }
+    div.web_banner img {
+        float:right;
+        margin:0px
+    }
+    // Course content
+    .course-content {
+        // Specific change to course header left margin
+        ul.topics li.section .left, 
+        ul.weeks li.section .left, 
+        ul.topics li.section .right, 
+        ul.weeks li.section .right {
+            padding-left:0px;
+        }
+        ul.topics li.section, 
+        ul.weeks li.section {
+            padding-bottom:0;
+        }
+        .section-summary {
+            border:none;
+        }
+        .content {
+            .summary,
+            .contentafterlink {
+                h5 {
+                    font-size:1rem;
+                    font-weight:bold;
+                    margin-bottom:.25rem;
+                    margin-top:.75rem;
+                }
+                p {
+                    margin-bottom:.25rem;
+                }
+            }
+            li.activity {
+                padding-top:.8rem;
+                .activityinstance {
+                    a.aalink {
+                        font-weight:bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #page-footer .container {
+        max-width: inherit;
+    }
+}
+@media screen and (max-width: 790px) {
+    #page-footer .container {
+        flex-direction:column;
+    }
+}
+
+// Change to course left margin
+@media screen and (min-width: 576px) {
+    .course-content ul.topics li.section .summary, 
+    .course-content ul.weeks li.section .summary, 
+    .course-content ul.topics li.section .content>.availabilityinfo, 
+    .course-content ul.weeks li.section .content>.availabilityinfo,
+    .course-content ul.section {
+        margin-left:.5rem;
+        padding-left:0;
+    }
+}

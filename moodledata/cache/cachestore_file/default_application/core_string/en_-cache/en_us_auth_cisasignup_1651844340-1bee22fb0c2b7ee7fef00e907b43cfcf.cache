@@ -1,0 +1,8 @@
+a:7:{s:26:"auth_cisasignupdescription";s:36:"<p>Customizes the signup screen.</p>";s:11:"configtitle";s:15:"CISA Auth Email";s:12:"nobootswatch";s:4:"None";s:23:"auth_cisasignupsettings";s:8:"Settings";s:10:"pluginname";s:24:"CISA extension to Signup";s:16:"privacy:metadata";s:71:"The CISA signup plugin does not store any personal data about any user.";s:15:"sid_description";s:596:"<p dir="ltr" style="text-align:left;">
+If you currently have a FEMA Student ID, please enter it below.</p>
+<p dir="ltr" style="text-align:left;">
+Otherwise you can go to this link to obtain one:</p>
+<p dir="ltr" style="text-align:left;">
+<a href="https://cdp.dhs.gov/femasid" target="_blank" rel="noreferrer noopener">https://cdp.dhs.gov/femasid</a></p>
+<p dir="ltr" style="text-align:left;">
+<strong>Note:</strong>&nbsp;This feature is currently optional. Entering a Student ID will help us ensure your work in this learning management system can be reported correctly throughout DHS.</p>";}

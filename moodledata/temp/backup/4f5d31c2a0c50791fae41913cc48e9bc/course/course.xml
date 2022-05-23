@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course id="2" contextid="40">
+  <shortname>Synchronous Intro to CDM</shortname>
+  <fullname>Synchronous Intro to the CDM Agency Dashboard</fullname>
+  <idnumber></idnumber>
+  <summary>&lt;p dir="ltr" style="text-align: left;"&gt;Welcome to the Continuous Diagnostics and Mitigation (CDM) Introduction to the CDM Agency Dashboard course!&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Here you will examine the CDM Agency Dashboard,&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;Find Vulnerabilities with High AWARE Scores and Browse and&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;Sort Hardware Assets.&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span style="font-size: 0.9375rem;"&gt;This course will help you gain further awareness, understanding, and overall knowledge of the CDM Program.&lt;/span&gt;&lt;/p&gt;</summary>
+  <summaryformat>1</summaryformat>
+  <format>topics</format>
+  <showgrades>1</showgrades>
+  <newsitems>0</newsitems>
+  <startdate>1631905200</startdate>
+  <enddate>0</enddate>
+  <marker>0</marker>
+  <maxbytes>0</maxbytes>
+  <legacyfiles>0</legacyfiles>
+  <showreports>0</showreports>
+  <visible>1</visible>
+  <groupmode>0</groupmode>
+  <groupmodeforce>0</groupmodeforce>
+  <defaultgroupingid>0</defaultgroupingid>
+  <lang></lang>
+  <theme></theme>
+  <timecreated>1612286761</timecreated>
+  <timemodified>1632752879</timemodified>
+  <requested>0</requested>
+  <showactivitydates>1</showactivitydates>
+  <showcompletionconditions>1</showcompletionconditions>
+  <enablecompletion>1</enablecompletion>
+  <completionnotify>0</completionnotify>
+  <hiddensections>0</hiddensections>
+  <coursedisplay>0</coursedisplay>
+  <category id="2">
+    <name>CDM Dashboard</name>
+    <description></description>
+  </category>
+  <tags>
+    <tag id="1">
+      <name>video</name>
+      <rawname>video</rawname>
+    </tag>
+  </tags>
+  <customfields>
+    <customfield id="1">
+      <shortname>course_number</shortname>
+      <type>text</type>
+      <value>CDM141</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="2">
+      <shortname>course_length</shortname>
+      <type>text</type>
+      <value>2hrs</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="3">
+      <shortname>course_objectives</shortname>
+      <type>textarea</type>
+      <value>&lt;p dir="ltr" style="text-align:left;"&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Understand CDM Agency Dashboard basic features and functionality&lt;/li&gt;&lt;li&gt;Instructor demonstrates the CDM Agency Dashboard&lt;/li&gt;&lt;/ul&gt;</value>
+      <valueformat>1</valueformat>
+    </customfield>
+    <customfield id="4">
+      <shortname>course_delivery</shortname>
+      <type>select</type>
+      <value>3</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="19">
+      <shortname>course_audience</shortname>
+      <type>text</type>
+      <value></value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="5">
+      <shortname>course_proficiency</shortname>
+      <type>select</type>
+      <value>2</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="6">
+      <shortname>course_prereqs</shortname>
+      <type>textarea</type>
+      <value>&lt;p dir="ltr" style="text-align:left;"&gt;Recommended prerequisites include:&lt;/p&gt;&lt;p dir="ltr" style="text-align:left;"&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;CDM Dashboard Guide Course&lt;/li&gt;&lt;/ul&gt;</value>
+      <valueformat>1</valueformat>
+    </customfield>
+    <customfield id="7">
+      <shortname>course_ceus</shortname>
+      <type>text</type>
+      <value>2</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="8">
+      <shortname>role_analyze</shortname>
+      <type>checkbox</type>
+      <value>0</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="9">
+      <shortname>role_collect</shortname>
+      <type>checkbox</type>
+      <value>0</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="10">
+      <shortname>role_investigate</shortname>
+      <type>checkbox</type>
+      <value>0</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="11">
+      <shortname>role_operate</shortname>
+      <type>checkbox</type>
+      <value>1</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="12">
+      <shortname>role_oversee</shortname>
+      <type>checkbox</type>
+      <value>0</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="13">
+      <shortname>role_protect</shortname>
+      <type>checkbox</type>
+      <value>1</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="14">
+      <shortname>role_provision</shortname>
+      <type>checkbox</type>
+      <value>0</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="15">
+      <shortname>topic_aware</shortname>
+      <type>checkbox</type>
+      <value>0</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="16">
+      <shortname>topic_cdm</shortname>
+      <type>checkbox</type>
+      <value>1</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="17">
+      <shortname>topic_cloud</shortname>
+      <type>checkbox</type>
+      <value>0</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="18">
+      <shortname>topic_ransomware</shortname>
+      <type>checkbox</type>
+      <value>0</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="20">
+      <shortname>topic_networking</shortname>
+      <type>checkbox</type>
+      <value>0</value>
+      <valueformat>0</valueformat>
+    </customfield>
+    <customfield id="62">
+      <shortname>course_image</shortname>
+      <type>text</type>
+      <value>DAD63DFB57EE47309BEBDBF7F8872670</value>
+      <valueformat>0</valueformat>
+    </customfield>
+  </customfields>
+</course>

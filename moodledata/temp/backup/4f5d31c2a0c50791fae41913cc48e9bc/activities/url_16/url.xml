@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2" moduleid="16" modulename="url" contextid="87">
+  <url id="2">
+    <name>CLICK HERE: Access to Adobe Connect Meeting</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Available on October 5th, 2021&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Due to the live nature of this course, this link will only be available during the live course duration.&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <externalurl>https://dhsconnect.connectsolutions.com/cdm141-r4-oct21/event/login.html</externalurl>
+    <display>3</display>
+    <displayoptions>a:0:{}</displayoptions>
+    <parameters>a:1:{s:5:"login";s:9:"useremail";}</parameters>
+    <timemodified>1633122856</timemodified>
+  </url>
+</activity>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3">
+  <number>1</number>
+  <name>Intro to CDM Dashboard Overview </name>
+  <summary>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;This course provides participants with
+the essential knowledge of the latest version of the CDM Agency Dashboard
+available to the CISA Training Team. It explains basic features and navigation
+within the environment, includes demonstrations of many of the overview
+dashboards available in the CDM Agency Dashboard, and begins the discussion of
+how to identify and report on vulnerabilities.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Course Objectives:&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;The student will be able to:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Describe the goals of the CDM Program
+and CDM Agency Dashboard ​&lt;/li&gt;&lt;li&gt;Describe the basic CDM Dashboard Data
+Flow Architecture​&lt;/li&gt;&lt;li&gt;Describe some of the basic features
+of the CDM Agency Dashboard and Kibana&lt;/li&gt;&lt;li&gt;Identify the key components of the AWARE
+Scoring Algorithm​&lt;/li&gt;&lt;li&gt;Identify the vulnerabilities with the
+highest AWARE Score​&lt;/li&gt;&lt;/ul&gt;&lt;!--[if !supportLists]--&gt;&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+&lt;p&gt;Please take a moment to download and view
+the presentation below before moving on to the next section within the course.&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</summary>
+  <summaryformat>1</summaryformat>
+  <sequence>3,16,4</sequence>
+  <visible>1</visible>
+  <availabilityjson>{"op":"&amp;","c":[],"showc":[]}</availabilityjson>
+  <timemodified>1632162531</timemodified>
+</section>

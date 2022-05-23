@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1" moduleid="3" modulename="resource" contextid="43">
+  <resource id="1">
+    <name>CDM 141 Slides</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;Please review the slides below before moving on in the course.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <tobemigrated>0</tobemigrated>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>6</display>
+    <displayoptions>a:2:{s:10:"popupwidth";i:620;s:11:"popupheight";i:450;}</displayoptions>
+    <filterfiles>0</filterfiles>
+    <revision>8</revision>
+    <timemodified>1633095636</timemodified>
+  </resource>
+</activity>

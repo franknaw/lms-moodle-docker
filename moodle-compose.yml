@@ -1,0 +1,22 @@
+version: '3.5'
+
+services:
+
+  moodle:
+    container_name: lms-moodle
+    image: lms-moodle-docker:0.0.6
+    ports:
+      - "8080:80"
+      - "2222:22"
+    networks:
+      - local_dev
+    restart: unless-stopped
+
+networks:
+  local_dev:
+    driver: bridge
+
+volumes:
+  moodle-data:
+
+
